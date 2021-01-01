@@ -25,7 +25,7 @@ h2 {
     font-weight: bold;
 }
 
-article {
+.component {
     align-self: center;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(116, 116, 116, 0.1),
@@ -37,7 +37,7 @@ article {
     overflow: hidden;
 }
 
-article > section { padding : 20px 40px; }
+.component > section { padding : 20px 40px; }
 
 .community {
     background-color: #fff;
@@ -107,7 +107,7 @@ footer {
     padding: 10px;
 }
 @media (max-width: 375px) {
-    article {
+    .component {
     display: initial;
     margin:35% 5%;
     }
